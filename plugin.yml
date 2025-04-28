@@ -1,0 +1,20 @@
+---
+name: landui
+version: 1.0.0
+main: ashaibery\landui\Main
+api: 5.0.0
+
+commands:
+  lu:
+    description: Easier use of the Land system 
+    permission: land.use
+  landui:
+    description: Easier use of the Land system 
+    permission: land.use
+    
+    
+permissions: 
+     land.use: 
+        default: true
+        description: Permission For Land Ui And LU Command
+...
